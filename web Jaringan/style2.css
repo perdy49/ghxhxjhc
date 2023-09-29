@@ -1,0 +1,117 @@
+:root {
+  --light-blue: #7588ff;
+}
+body,
+html {
+  height: 100%;
+}
+
+body {
+  background-image: url("foto/wallpapper.jpg");
+  height: 120%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 20px 10%;
+  background: transparent;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 100;
+}
+
+.wp header h1 {
+  padding: 50px 500px;
+  color: rgb(25, 92, 66);
+  font-weight: 600;
+  position: relative;
+  cursor:default ;
+}
+
+.wp h1:hover {
+  color: var(--light-blue);
+}
+
+.wp2 .kotak {
+  border-style: ridge;
+  width: 50px;
+  height: 50px;
+  background: var(--light-blue);
+  padding: 200px 500px;
+  border-radius: 20px;
+  left: 200px;
+  position: sticky;
+}
+
+.kotak .wp3 h1 {
+  position: absolute;
+  left: 40px;
+  top: 10%;
+  z-index: -1;
+  color: rgb(156, 18, 126);
+  cursor:default ;
+}
+
+.kotak .wp4 h1 {
+  position: absolute;
+  left: 420px;
+  top: 10%;
+  z-index: -1;
+  color: rgb(156, 18, 126);
+  cursor:default ;
+}
+
+.kotak .wp5 h1 {
+  position: absolute;
+  left: 820px;
+  top: 10%;
+  z-index: -1;
+  color: rgb(156, 18, 126);
+  cursor:default ;
+}
+
+.kotak .logo img {
+  position: absolute;
+  left: 780px;
+  bottom: 15%;
+  z-index: -1;
+  cursor: pointer;
+  transition-duration: 5s;
+}
+
+.kotak .logo img:hover {
+  transform: scale(1.22);
+}
+
+.kotak .logo2 img {
+  position: absolute;
+  left: 370px;
+  bottom: 20%;
+  z-index: -1;
+  cursor: pointer;
+  transition-duration: 5s;
+}
+
+.kotak .logo2 img:hover {
+  transform: scale(1.22);
+}
+
+.kotak .logo3 img {
+  position: absolute;
+  left: 1px;
+  bottom: 20%;
+  z-index: -1;
+  cursor: pointer;
+  transition-duration: 5s;
+}
+
+.kotak .logo3 img:hover {
+  transform: scale(1.22);
+}

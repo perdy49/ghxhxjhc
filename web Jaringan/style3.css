@@ -1,0 +1,48 @@
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+}
+
+.container h1 {
+  font-weight: 700;
+  color: darkslateblue;
+}
+
+.garis hr {
+  color: rgb(27, 114, 74);
+  margin: 30px 80px;
+  border-radius: 20px;
+}
+
+.image img {
+  display: block;
+  position: absolute;
+  margin: 10px 120px;
+  border-radius: 2%;
+}
+
+.textawal h3 {
+  position: relative;
+  margin: 130px 400px;
+  font-weight: 800;
+  color: rgb(40, 86, 139);
+}
+
+.akhir {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: rgb(40, 117, 66);
+}
+
+.akhir img{
+  transition-duration: 5s;
+}
+
+.akhir img:hover{
+  transform: scale(1.22);
+}
